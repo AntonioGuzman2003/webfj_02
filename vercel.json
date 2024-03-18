@@ -3,7 +3,7 @@
     "name": "mi-aplicacion",
     "builds": [
       {
-        "src": "welcome.blade.php",
+        "src": "index.php",
         "use": "@vercel/static-build"
       }
     ],
