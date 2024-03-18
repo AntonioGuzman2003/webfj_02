@@ -5,6 +5,10 @@
       {
         "src": "public/index.php",
         "use": "@vercel/static-build"
+      },
+      {
+        "src": "composer.json",
+        "use": "@vercel/php"
       }
     ],
     "routes": [
