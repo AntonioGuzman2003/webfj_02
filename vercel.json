@@ -8,7 +8,7 @@
       }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "./resources/views/welcome.blade.php" }
+      { "src": "/(.*)", "dest": "/welcome.blade.php" }
     ]
   }
   
