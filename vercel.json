@@ -3,12 +3,12 @@
     "name": "mi-aplicacion",
     "builds": [
       {
-        "src": "index.php",
+        "src": "public/index.php",
         "use": "@vercel/static-build"
       }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/welcome.blade.php" }
+      { "src": "/(.*)", "dest": "/public/index.php" }
     ]
   }
   
