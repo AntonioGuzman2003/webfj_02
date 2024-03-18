@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "name": "mi-aplicacion",
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/resources/views/welcome.blade.php" }
+    ]
+  }
+  
