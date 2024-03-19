@@ -1,18 +1,6 @@
 {
-    "version": 2,
-    "name": "mi-aplicacion",
-    "builds": [
-      {
-        "src": "public/index.php",
-        "use": "@vercel/static-build"
-      },
-      {
-        "src": "composer.json",
-        "use": "@vercel/php"
-      }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "/public/index.php" }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    { "src": "public/**/*", "use": "@vercel/php" }
+  ]
+}
