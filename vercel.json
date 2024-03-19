@@ -1,6 +1,6 @@
 {
   "version": 2,
   "builds": [
-    { "src": "public/**/*", "use": "@vercel/php" }
+    { "src": "public/**/*", "use": "@vercel/official-php" }
   ]
 }
