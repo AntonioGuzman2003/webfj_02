@@ -102,28 +102,27 @@
             </ul>
         </nav>
     </header>
-    
-    <section class="hero">
-        <h1>Lab01-Antonio</h1>
-        <p>Tu mensaje de bienvenida aquí.</p>
-        <a href="#" class="btn">Más información</a>
-    </section>
 
-    <section class="features">
-        <h2>Características principales</h2>
-        <div class="feature">
-            <h3>Característica 1</h3>
-            <p>Descripción de la característica 1.</p>
+    <div class="container-fluid py-5">
+        <br class="container">
+            <br></br>
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">¿Quienes Somos?</h4>
+                <h1 class="display-4">GAMEPLUS.PE</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Nuestra historia</h1>
+                    <p>Somos un pequeño emprendimiento que comenzo con sus operaciones en 2021 ,pasamos por desafios durante la pandemia y en lugar de detenernos decidimos transformar nuestro negocio a lo digital. </p>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="/images/games.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Nuestra Vision</h1>
+                    <p>Tenemos como vision,llegar a mas usuarios brindandole una buena experiencia en nuestro sitio web esperando que encuentre el producto de su elección.</p>
+                </div>
+            </div>
         </div>
-        <div class="feature">
-            <h3>Característica 2</h3>
-            <p>Descripción de la característica 2.</p>
-        </div>
-        <div class="feature">
-            <h3>Característica 3</h3>
-            <p>Descripción de la característica 3.</p>
-        </div>
-    </section>
-
-</body>
-</html>
