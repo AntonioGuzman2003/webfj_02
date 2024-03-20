@@ -115,14 +115,12 @@
                     <h1 class="mb-3">Nuestra historia</h1>
                     <p>Somos un pequeño emprendimiento que comenzo con sus operaciones en 2021 ,pasamos por desafios durante la pandemia y en lugar de detenernos decidimos transformar nuestro negocio a lo digital. </p>
                 </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="/images/games.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
                 <div class="col-lg-4 py-0 py-lg-5">
                     <h1 class="mb-3">Nuestra Vision</h1>
                     <p>Tenemos como vision,llegar a mas usuarios brindandole una buena experiencia en nuestro sitio web esperando que encuentre el producto de su elección.</p>
                 </div>
             </div>
         </div>
+    <div>
+</body>
+</html>
