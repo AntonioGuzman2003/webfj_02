@@ -1,89 +1,129 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <!-- Styles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Laravel</title>
     <style>
-        html, body {
-            background-color: #f8fafc;
-            color: #636b6f;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 100;
-            height: 100vh;
+        /* Estilos CSS integrados */
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .full-height {
-            height: 100vh;
-        }
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-        .position-ref {
-            position: relative;
-        }
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
-        .content {
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
         }
-        .title {
-            font-size: 84px;
-            color: #636b6f;
-            margin-bottom: 30px;
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
         }
-        .links {
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-image: url('tu-imagen.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
             margin-bottom: 20px;
         }
-        .links a {
-            color: #636b6f;
-            padding: 10px 25px;
-            font-size: 18px;
-            font-weight: bold;
-            text-decoration: none;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
-        .links a:hover {
-            background-color: #d1d5db;
-            color: #000;
+
+        .btn {
+            background-color: #f39c12;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
             border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #e67e22;
+        }
+
+        .features {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .feature {
+            margin-bottom: 30px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-<div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @if (Auth::check())
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ url('/login') }}">Login</a>
-                <a href="{{ url('/register') }}">Register</a>
-            @endif
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Lab01-Antonio</h1>
+        <p>Tu mensaje de bienvenida aquí.</p>
+        <a href="#" class="btn">Más información</a>
+    </section>
+
+    <section class="features">
+        <h2>Características principales</h2>
+        <div class="feature">
+            <h3>Característica 1</h3>
+            <p>Descripción de la característica 1.</p>
         </div>
-    @endif
-    <div class="content">
-        <div class="title m-b-md">
-            Laravel-Guzman
+        <div class="feature">
+            <h3>Característica 2</h3>
+            <p>Descripción de la característica 2.</p>
         </div>
-        <div class="links">
-            <a href="https://laravel.com/docs">Documentation</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
+        <div class="feature">
+            <h3>Característica 3</h3>
+            <p>Descripción de la característica 3.</p>
         </div>
-    </div>
-</div>
+    </section>
+
 </body>
 </html>
